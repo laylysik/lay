@@ -1,10 +1,7 @@
 import telebot
 import bs4
-from Task import Task
-import parser
 
 #main variables
-TOKEN = '509706011:AAF7ghlYpqS5n7uF8kN0VGDCaaHnxfZxofg'
 bot = telebot.TeleBot(TOKEN)
 task = Task()
 
